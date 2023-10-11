@@ -1,0 +1,20 @@
+{
+  "name": "nimrod-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0",
+    "dev": "directus start",
+    "start": "directus start",
+    "migrate": "npx directus database migrate:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^10.6.3",
+    "directus-extension-wpslug-interface": "^1.1.0",
+    "pg": "^8.11.3"
+  }
+}
